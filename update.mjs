@@ -93,13 +93,13 @@ const docker = [
 
 // frameworks and their specific files
 const frameworks = {
-  'vite.config.*': ['index.html'],
-  'vue.config.*': [],
-  'nuxt.config.*': [],
-  'next.config.*': [],
-  'svelte.config.*': [],
-  'remix.config.*': ['remix.*'],
-}
+  "vite.config.*": ["index.html"],
+  "vue.config.*": [],
+  "nuxt.config.*": [],
+  "next.config.*": ["next-env.d.ts"],
+  "svelte.config.*": [],
+  "remix.config.*": ["remix.*"],
+};
 
 // library configs, will be appended to all the frameworks
 const libraries = [
